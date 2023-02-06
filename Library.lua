@@ -2858,7 +2858,7 @@ function Library:CreateWindow(...)
                 BorderColor3 = 'OutlineColor';
             });
 
-            local BoxInner = Library:Create('Frame', {
+            local BoxInner = Library:Create('ScrollingFrame', {
                 BackgroundColor3 = Library.BackgroundColor;
                 BorderColor3 = Color3.new(0, 0, 0);
                 BorderMode = Enum.BorderMode.Inset;
